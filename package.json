@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@vercel/postgres": "^0.7.2"
+    "@vercel/postgres": "^0.7.2",
+    "use-debounce": "^10.0.0"
   }
 }
