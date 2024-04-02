@@ -57,7 +57,3 @@ export async function updateInvoice(id: string, formData: FormData) {
     await sql`DELETE FROM invoices WHERE id = ${id}`;
     revalidatePath('/dashboard/invoices');
   }
-
-  export async function ghostfunction () {
-    return true;
-  }
